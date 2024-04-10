@@ -1,0 +1,10 @@
+10-04-2024
+
+Practica, diseno conceptual
+Tipos de diseno:
+ conceptual
+ logico
+ fisico
+La cardinalidad maxima define el tipo de relacion
+
+https://erdplus.com/edit-diagram/1ab68772-f31c-484f-9d95-6b040bb55605
