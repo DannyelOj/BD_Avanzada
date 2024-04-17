@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3D0BBC8-AD93-37A2-2B52-5801D5FD9068" name="titulo">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:22:34 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usuarios_cedula" id="D6CB327F-FD78-34B2-989B-99FE44F8FB79">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:22:56 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DB130D0-97D2-4B24-88E3-95A684464330" referredColumn="8E75A6E7-9686-EBEC-6521-A6BCE82EB5CA"/>
+</associations>
+</Column>
+<Column name="titulo" id="9F9D7827-010C-4ACD-3B99-60241F64BFF7">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:23:55 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8405050A-4636-A789-2764-2B6261B86875" name="titulo_PK">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:24:29 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6CB327F-FD78-34B2-989B-99FE44F8FB79"/>
+<colUsage columnID="9F9D7827-010C-4ACD-3B99-60241F64BFF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC49C0C9-5F60-FFED-EEB3-85FDAD6F7A56" name="titulo_Usuarios_FK">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:22:56 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6CB327F-FD78-34B2-989B-99FE44F8FB79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
