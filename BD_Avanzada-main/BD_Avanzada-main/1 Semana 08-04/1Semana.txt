@@ -1,0 +1,55 @@
+Clase 01 del 01 Bim
+
+REFORZAR
+-------------------------------------------------------------------------------------
+SQL-> DML Y DDL
+ALGEBRA RELACIONAL
+DISENO CONCEPTUAL
+DISENO LOGICO -> NORMALIZACION
+-------------------------------------------------------------------------------------
+PRIMER BIMESTRE
+ >PROCESO DE CREACION Y ADMINISTRACION DE UNA BASE DE DATOS (2)
+ >DISENO FISICO E IMPLEMENTACION DE UNA BASE DE DATOS (2)
+ >SEGURIDAD EN BASE DE DATOS -> MOTORES (1)
+ >TRANSACCIONES (2)
+-------------------------------------------------------------------------------------
+SEGUNDO BIMESTRE
+ >SQL AVANZADO -> GROUP BY, MONOTABLA, MUTLTITABLA, CREAR COLUMNAS CALCUALDAS, ETC. (2) 
+ >AFINACION Y DESEMPENO DE UNA BASE DE DATOS -> PROBLEMOS, COMO SOLUCIONARLOS (2)
+ >BASES DE DATOS DISTRIBUIDAS (1)
+ >OTROS MODELOS DE BASES DE DATOS -> NOSQL, SQL, MANIPULAR UNA BASE DE DATOS NO SQL (2)
+-------------------------------------------------------------------------------------
+MOTORES A USAR: MYSQL Y ORACLE
+-------------------------------------------------------------------------------------
+Base de Datos
+Conjunto de datos estrucutrados, logicamente relacionados
+Sistema Gestor de Base de Datos
+SGBD -> motor de base de datos -> acceder, consultar y manipular la base de datos ->
+	interfaz = sql 
+Niveles de Abstraccion:
+ > Nivel de Vista -> Perspectiva del usuario final (cajero de un banco, fomularios, 
+			informacion, estadistica)
+ > Nivel de Logico -> Organizacion logica de los datos (los mismos datos de una forma 
+			logica y organizada)
+ > Nivel Fisico -> Donde se guardo la Base de datos, Organizacion de los archivos en 
+			el almacenamiento (puedo tener 20 tablas pero yo veo un solo archivo)
+Ciclo de Vida:
+--------------
+	definicion de necesidades (Estudio inicial)
+	recopilacion y analisis de requisitos (Estudio inicial) 
+	Diseno Conversion y carga de Datos (nunca va a estar vacio, cargar datos iniciales) 
+	pruebas (Pruebas en si)
+	implementacion (puesta en operacion) 
+	Mantenimiento operativo (El dba debe terner en cuenta el mantenimiento)
+Diseno Coonceptual:
+------------------
+	Conceptual -> Esquema abstracto que representa los requisitos de datos del negocio 
+			modelo e-r
+	logico -> Estructura:
+			modelo relacional
+			diccionario de datos: complementacion del diagrama, mas no poner lo mismo que el diagrama
+	fisico -> Define las especificaciones -> DBA
+modelo e-r == erdplus
+
+estudiar como hacer un e-r
+			

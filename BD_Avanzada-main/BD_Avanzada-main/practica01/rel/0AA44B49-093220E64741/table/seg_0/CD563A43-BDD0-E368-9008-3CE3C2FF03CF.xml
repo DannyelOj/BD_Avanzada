@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD563A43-BDD0-E368-9008-3CE3C2FF03CF" name="Bicicleta">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:42:34 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_registro" id="395F645C-037B-711C-D658-5D865017BF90">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:45:47 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="74F9B261-1C8D-E4B5-83D8-A7839A1CA3AE">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:45:47 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="2E527DFD-21D5-D112-A02C-A55CE57A7611">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:45:47 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="C3840A70-6B0A-2336-0EEC-BDA57BFCFFDA">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:45:47 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="66E10779-C069-CC0E-4B17-56526650A26C">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:45:47 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="E9609529-FB3E-0DD2-D436-504414D769EB">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:45:47 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rastreados_nro_rastreador" id="3932DF93-C5F6-D7CF-5ED8-FFD5CB4A6913">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:09:19 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="222F2F82-0204-1757-D442-05F8D209BCCA" referredColumn="438951A1-85C0-EB05-BDE1-A3D74647C7E3"/>
+</associations>
+</Column>
+<Column name="fecha_instalacion_rast" id="5FCB9F2B-F61F-341E-F025-AA1386710979">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:11:38 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitud_ult" id="331F2F06-EFEF-DAB1-B105-4E9A88D1A334">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:13:06 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitud_ult" id="C4948FB7-C787-5500-DD41-DF39AF2FD579">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:13:06 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47AD96CB-A91D-F6DB-B984-792C089424F7" name="Bicicleta_PK">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:45:47 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="395F645C-037B-711C-D658-5D865017BF90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5E38058-AA79-5EB8-DBCF-9BFE11031284" name="Bicicleta_Rastreados_FK">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:09:19 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3932DF93-C5F6-D7CF-5ED8-FFD5CB4A6913"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

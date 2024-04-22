@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="222F2F82-0204-1757-D442-05F8D209BCCA" containerWithKeyObject="CD563A43-BDD0-E368-9008-3CE3C2FF03CF" localFKIndex="F5E38058-AA79-5EB8-DBCF-9BFE11031284" name="Bicicleta_Rastreados_FK">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:09:19 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<referredTableLongName>Rastreados</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3B256182-6F57-3A97-4C5A-FDB1A807A04D</referredTableID>
+<keyObject>6F9CDD1D-EC65-77AD-342C-C4EE5BF909EE</keyObject>
+<referredKeyID>6F9CDD1D-EC65-77AD-342C-C4EE5BF909EE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nro_rastreador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

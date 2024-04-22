@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCD4B6F6-8923-FD22-A7FB-E42FB13F67D9" name="Usuarios">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:46:02 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cedula" id="8E75A6E7-9686-EBEC-6521-A6BCE82EB5CA">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:46:46 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="CE8039F0-5B10-F2DE-76C9-3C12B441DFF3">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:46:46 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="01E58056-1173-8CB8-1227-AF53299A49C0">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:46:46 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="E253A3D6-A53C-9878-3F52-E8CFF461A30C">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:46:46 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="62E86438-12B3-9BBF-979A-58CB1C52EE9A">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:46:46 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono1" id="E06B1EA4-603B-EF7F-A4D0-3A11E05E6E1A">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:19:59 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono2" id="11D5E97A-E948-B82D-6BE5-5B6AC69941EA">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:21:01 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono3" id="E723E25E-5482-A5C1-7285-6C1CD50CEA35">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 13:21:01 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76D5226F-4FA3-65E2-222E-E7EA32E3D395" name="Usuarios_PK">
+<createdBy>utpl</createdBy>
+<createdTime>2024-04-17 12:49:18 UTC</createdTime>
+<ownerDesignName>practica01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E75A6E7-9686-EBEC-6521-A6BCE82EB5CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
